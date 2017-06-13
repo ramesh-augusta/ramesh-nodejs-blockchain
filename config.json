@@ -9,24 +9,19 @@
       "chaincodePath":"chaincode",
       "functionName":"init",
       "args":[
-         "a",
-         "100",
-         "b",
-         "200"
+          "Hi There"
       ]
    },
    "invokeRequest":{
-      "functionName":"invoke",
+      "functionName":"dispensaryPlacedOrder",
       "args":[
-         "a",
-         "b",
-         "10"
+         "ORD7561","Product A", "10"
       ]
    },
-   "queryRequest":{
-      "functionName":"query",
+    "queryRequest":{
+      "functionName":"getdispensaryPlacedOrder",
       "args":[
-         "a"
+         "id"
       ]
    }
 }

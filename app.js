@@ -52,6 +52,7 @@ function init() {
     setup();
 
     printNetworkDetails();
+    
     //Check if chaincode is already deployed
     //TODO: Deploy failures aswell returns chaincodeID, How to address such issue?
     if (fileExists(chaincodeIDPath)) {
